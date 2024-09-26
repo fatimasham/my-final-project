@@ -11,17 +11,10 @@ import Home from './Home';
 import Contact from './Contact/Contact';
 import AboutProduct from './AboutProduct';
 import Background from './BackGround';
-
-import { useState } from 'react';
-import { slides } from './slides';
-
+import SlideBar from './SlideBar';
 
 
 function App() {
-
-  const [shop, setShop] = useState(0);
-const {id, image} = slides[shop];
-console.log(slides[shop])
 
 return(<div>
   
@@ -42,25 +35,12 @@ return(<div>
 </Routes>     
 </Router>
 
-<div>
-  <img src={id} />
-   </div>
-
-<div>
-  <img src={image} width="400px" alt="accessorize"/>
-   </div>
-
-
+<SlideBar />
 
 </div>
 )
-
-
 }
 
 
-
-
-
-
 export default App;
+
