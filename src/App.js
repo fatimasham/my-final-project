@@ -31,7 +31,7 @@ return(<div>
     <Route path="/" element={<Home />}/>
     <Route path="/about" element={<About />}/>
     <Route path="/contact" element={<Contact />}/>
-    <Route path='/about/title' element={<AboutProduct />} />
+    <Route path='/about/:title' element={<AboutProduct />} />
 </Routes>     
 </Router>
 
@@ -40,7 +40,6 @@ return(<div>
 </div>
 )
 }
-
 
 export default App;
 
