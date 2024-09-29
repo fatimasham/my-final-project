@@ -16,9 +16,6 @@ function AboutProduct() {
                         alt="product"
                         width="400px"
                         />
-                        <button className="btn" onClick={() => navigate(-1)}>
-                            Go back
-                        </button>
                     </div>
                 );
             })}
