@@ -79,9 +79,6 @@ h3, h4 {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
 
-button {
-  margin: 10px;
-}
 
 .container {
   display: flex;
@@ -96,5 +93,36 @@ margin-left: 40%;
 font-size: 40px;
 color:#ff48a7;
 }
+
+.location {
+  display: flex;
+  justify-content: center;
+  background-color: #C7DDF2;
+  padding: 30px;
+
+
+}
+
+.btn {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+button {
+
+  background-color: #f4eddd; 
+  color: #ff48a7;
+  padding: 10px;
+  border: 2px solid #ff48a7;
+  text-transform: uppercase;
+  border-radius: 10px;
+
+}
+
+h6 {
+  font-size: 20px;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  }
+
 
 
