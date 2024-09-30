@@ -1,8 +1,7 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { data } from "./data";
 
 function AboutProduct() {
-    const navigate = useNavigate();
     const { title } = useParams();
 
     return(
