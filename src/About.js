@@ -10,7 +10,7 @@ const About = () => {
             </div>
 
             <div>
-            <img src={Accessorize} alt="image" width="100%"/>
+            <img src={Accessorize} alt="label" width="100%"/>
             </div>
 
             <div>
