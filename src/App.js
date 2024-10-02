@@ -11,8 +11,6 @@ import Home from './Home';
 import Contact from './Contact/Contact';
 import AboutProduct from './AboutProduct';
 import Background from './BackGround';
-import SlideBar from './SlideBar';
-
 
 function App() {
 
@@ -34,8 +32,6 @@ return(<div>
     <Route path='/about/:title' element={<AboutProduct />} />
 </Routes>     
 </Router>
-
-<SlideBar />
 
 </div>
 )
