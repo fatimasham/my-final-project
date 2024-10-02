@@ -94,23 +94,17 @@ font-size: 40px;
 color:#ff48a7;
 }
 
-.location {
-  display: flex;
-  justify-content: center;
-  background-color: #C7DDF2;
-  padding: 30px;
-
-
+.location{
+  margin-left: 300px;
 }
 
 .btn {
   display: flex;
-  justify-content:space-evenly;
+  justify-content:space-around;
 }
 
 button {
-
-  background-color: #f4eddd; 
+  background-color: #C7DDF2;
   color: #ff48a7;
   padding: 10px;
   border: 2px solid #ff48a7;
@@ -123,6 +117,3 @@ h6 {
   font-size: 20px;
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   }
-
-
-
